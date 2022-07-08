@@ -5,21 +5,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: radial-gradient(
-    circle,
-    #fc3baa,
-    #f341bb,
-    #e84acb,
-    #d953db,
-    #c75dea,
-    #9c73fa,
-    #6783ff,
-    #008eff,
-    #009aef,
-    #00a1d4,
-    #00a3b6,
-    #41a29c
-  );
+  overflow: hidden;
+  background: url(photos/nathan-anderson-eS7HrvG0mcA-unsplash.jpg) no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 img {
