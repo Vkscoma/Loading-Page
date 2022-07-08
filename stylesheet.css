@@ -32,11 +32,17 @@ h1 {
 }
 
 .loading {
-  max-width: 450px;
+  max-width: 850px;
   line-height: 1.4;
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
+}
+
+@media (max-width: 450px) {
+  .loading {
+    max-width: 450px;
+  }
 }
 
 .loading__animation {
